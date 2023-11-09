@@ -7,19 +7,19 @@ This document is an instruction on how to work with **OBS Studio** and create a 
 ## 1. Opening the [**MetaAds**](https://metaads.team/main/) website
 
 * Connect
-* Click on Advertiser
-* Click on My Creatives
+* Click on *Advertiser*
+* Click on *My Creatives*
 
 ## 2. Creating a *Controlled Stream*
 
 ![Image](./media/1.png)
 
-* Click on Add Stream
+* Click on *Add Stream*
 
 ![Image](./media/2.png)
 
 * Click on Select Metaverse
-* Click on Decentraland
+* Click on **Decentraland**
 * Click on Next
 
 ![Image](./media/3.png)
@@ -47,7 +47,7 @@ This document is an instruction on how to work with **OBS Studio** and create a 
 
 * Click on Settings
 
-* Open MetaAds on My Creatives page
+* Open **MetaAds** on *My Creatives* page
 
 ![Image](./media/8.png)
 
@@ -86,3 +86,101 @@ This document is an instruction on how to work with **OBS Studio** and create a 
 **Image** - this is the source that will stream your selected image.
 
 **Slide show** - this is the source that will stream your selected slideshow.
+
+> Let's add several sources for the view (for example: image, capture of the input audio stream and capture of the output audio stream).
+
+In sources click on *Image*
+
+![Image](./media/11.png)
+
+* Enter the Name
+* Click on OK
+* Click on Review and select Image you want
+* Click on OK
+
+> The selected type with the specified name will appear in the list of sources.
+
+In sources click on *Capture of the input audio stream*
+
+![Image](./media/12.png)
+
+* Enter the Name
+* Click on OK
+* Click and select your device in *Device* field
+* Click on OK
+
+> The selected type with the specified name will appear in the list of sources.
+
+In sources click on *Capture of the output audio stream*
+
+![Image](./media/13.png)
+
+* Enter the Name
+* Click on OK
+* Click and select your device in *Device* field
+* Click on OK
+
+> The selected type with the specified name will appear in the list of sources.
+
+## 4. Creating an audience and campaign with Controlled Stream
+### **Audience**
+![Image](./media/10.png)
+
+* Click on *Advertiser*
+* Click on *Audience*
+* Click on *New Template*
+
+![Image](./media/14.png)
+
+* Enter Name   
+* Enter Description
+* Click on *Next Step*
+
+![Image](./media/15.png)
+![Image](./media/16.png)
+![Image](./media/17.png)
+
+* Click on **"+"**
+* Choose your **Controlled Stream**
+* Click on *Save & To Rules List*
+* Click on *Save & Quit*
+
+![Image](./media/18.png)
+
+> An audience will be created and the message *"The audience has been successfully created"* will pop up.
+
+### **Campaign**
+
+![Image](./media/19.png)
+
+* Click on *Advertiser*
+* Click on *Campaign*
+* Click on *New Campaign*
+
+![Image](./media/20.png)
+
+* Enter Name
+* Enter Description
+* Set the start and end time of the campaign
+* Select an audience with Controlled Stream
+* Click on *Next Step*
+
+![Image](./media/21.png)
+
+* In the rule type, select Exclusive (to take up all the selected time)
+* Click on *Next Step*
+
+![Image](./media/22.png)
+![Image](./media/23.png)
+
+* Click on **Metaverse** and select *Decentraland*
+* Select the *Ad Space* where your stream will be displayed
+* Click on *Next Step*
+
+> Next a review of your stream will appear.
+
+* Click on Start Campaign
+
+![Image](./media/24.png)
+
+> The campaign will be created with one of the statuses: *On Moderation*, *New*, *Scheduled*. The message *"The audience has been successfully created"* will also pop up. 5 minutes before the start of the campaign in **OBS Studio**, click on *Start broadcast* and it will appear on the selected *Ad Space*.
