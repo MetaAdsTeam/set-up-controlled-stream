@@ -1,5 +1,4 @@
 # MetaAds Controlled Stream
-
 ## Introduction
 
 This document is an instruction on how to work with **OBS Studio** and create a *controlled stream* in detail.
@@ -12,28 +11,28 @@ This document is an instruction on how to work with **OBS Studio** and create a 
 
 ## 2. Creating a *Controlled Stream*
 
+* Click on *Add Stream*
+
 ![Image](./media/1.png)
 
-* Click on *Add Stream*
+* Click on Select Metaverse (1)
+* Click on **Decentraland** (2)
+* Click on Next (3)
 
 ![Image](./media/2.png)
 
-* Click on Select Metaverse
-* Click on **Decentraland**
+* Click on *MetaAds* icon
+* Upload Preview Image (This is the image that will be displayed on the site)
 * Click on Next
 
 ![Image](./media/3.png)
 
-* Click on *MetaAds* icon
-* Upload Preview Image
-* Click on Next
+* Enter Name (1)
+* Enter Description (2)
+* Enter External target link (is optional) (3)
+* Click on Save
 
 ![Image](./media/4.png)
-
-* Enter Name
-* Enter description
-* Enter External target link (is optional)
-* Click on Save
 
 ![Image](./media/5.png)
 
@@ -42,108 +41,51 @@ This document is an instruction on how to work with **OBS Studio** and create a 
 ## 3. Set up **OBS Studio**
 
 * Open **OBS Studio**
+* Click on Settings
+* Open **MetaAds** on *My Creatives* page
 
 ![Image](./media/7.png)
 
-* Click on Settings
-
-* Open **MetaAds** on *My Creatives* page
+* Click on your recently created stream
 
 ![Image](./media/8.png)
 
-* Click on your recently created stream
-
 > You need to transfer the settings of the created stream from the MetaAds website to the stream settings in OBS Studio.
+
+* Click on Stream (1)
+* Copy link from *Public stream URL* field and paste in *Server* field (2)
+* Copy key from *Private key* field and paste in *Stream key* field (3)
+* Mark *Use authentication* (4)
+* Copy login from *Stream login* field and paste in *Username* field (5)
+* Copy password from *Stream password* field and paste in *Password* field (6)
+* Click on OK (7)
 
 ![Image](./media/6.png)
 
-* Click on broadcast
-* Copy link from *Public stream URL* field and paste in *Server* field
-* Copy key from *Private key* field and paste in *Stream key* field
-* Mark *Use authentication* 
-* Copy login from *Stream login* field and paste in *User name* field
-* Copy password from *Stream password* field and paste in *Password* field
-* Click on OK
-
-> For your stream, you can add some sources, such as:
-
-![Image](./media/9.png)
+> You can add a few sources, such as:
 
 * Click on **"+"**
 
-> You can choose any source you want to add
+![Image](./media/9.png)
 
-**Capture the input audio stream** - this is the source that will stream your microphone.
-
-**Capture the output audio stream** - this is the source that will stream audio from your device.
-
-**Capturing app audio** - this is the source that will stream the sound of a separately selected application.
-
-**Window Capture** - this is the source that will stream your selected window (application).
-
-**Screen Capture** - this is the source that will stream the entire screen of your device.
-
-**Image** - this is the source that will stream your selected image.
-
-**Slide show** - this is the source that will stream your selected slideshow.
-
-> Let's add several sources for the view (for example: image, capture of the input audio stream and capture of the output audio stream).
+> You can choose any source you want to show. Let's add some source for the view (for example: image).
 
 In sources click on *Image*
 
+* Enter the Name (1)
+* Click on OK (2)
+* Click on Review and select Image you want (3)
+* Click on OK (4)
+
 ![Image](./media/11.png)
-
-* Enter the Name
-* Click on OK
-* Click on Review and select Image you want
-* Click on OK
-
-> The selected type with the specified name will appear in the list of sources.
-
-In sources click on *Capture of the input audio stream*
-
-![Image](./media/12.png)
-
-* Enter the Name
-* Click on OK
-* Click and select your device in *Device* field
-* Click on OK
-
-> The selected type with the specified name will appear in the list of sources.
-
-In sources click on *Capture of the output audio stream*
-
-![Image](./media/13.png)
-
-* Enter the Name
-* Click on OK
-* Click and select your device in *Device* field
-* Click on OK
 
 > The selected type with the specified name will appear in the list of sources.
 
 ## 4. Creating an audience and campaign with Controlled Stream
 ### **Audience**
-![Image](./media/10.png)
 
-* Click on *Advertiser*
-* Click on *Audience*
-* Click on *New Template*
-
-![Image](./media/14.png)
-
-* Enter Name   
-* Enter Description
-* Click on *Next Step*
-
-![Image](./media/15.png)
-![Image](./media/16.png)
-![Image](./media/17.png)
-
-* Click on **"+"**
-* Choose your **Controlled Stream**
-* Click on *Save & To Rules List*
-* Click on *Save & Quit*
+Tutorial for **Audience creation** - __________
+> When choosing a creative for a rule, select your *Controlled Stream*
 
 ![Image](./media/18.png)
 
@@ -151,35 +93,9 @@ In sources click on *Capture of the output audio stream*
 
 ### **Campaign**
 
-![Image](./media/19.png)
+Tutorial for **Campaign creation** - __________
 
-* Click on *Advertiser*
-* Click on *Campaign*
-* Click on *New Campaign*
-
-![Image](./media/20.png)
-
-* Enter Name
-* Enter Description
-* Set the start and end time of the campaign
-* Select an audience with Controlled Stream
-* Click on *Next Step*
-
-![Image](./media/21.png)
-
-* In the rule type, select Exclusive (to take up all the selected time)
-* Click on *Next Step*
-
-![Image](./media/22.png)
-![Image](./media/23.png)
-
-* Click on **Metaverse** and select *Decentraland*
-* Select the *Ad Space* where your stream will be displayed
-* Click on *Next Step*
-
-> Next a review of your stream will appear.
-
-* Click on Start Campaign
+> When selecting an audience, select the one that has your **Controlled stream**
 
 ![Image](./media/24.png)
 
