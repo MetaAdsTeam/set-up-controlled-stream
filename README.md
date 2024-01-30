@@ -1,7 +1,7 @@
 # MetaAds Controlled Stream on OBS Studio
 ## Introduction
 
-    This document is an instruction on how to work with OBS Studio and create a controlled stream in detail.
+This document is an instruction on how to work with *OBS Studio* and create a *controlled stream* in detail.
 
 ## 1. Opening the [**MetaAds**](https://metaads.team/main/) website
 
@@ -15,22 +15,22 @@
 
 ![Image](./media/1.png)
 ##
-* Click on Select Metaverse (1)
+* Click on *Select Metaverse* (1)
 * Click on **Decentraland** (2)
-* Click on Next (3)
+* Click on *Next* (3)
 
 ![Image](./media/2.png)
 ##
 * Click on *MetaAds* icon
-* Upload Preview Image (This is the image that will be displayed on the site)
+* Upload *Preview Image* (This is the image that will be displayed on the site with the created Ad Space)
 * Click on Next
 
 ![Image](./media/3.png)
 ##
-* Enter Name (1)
-* Enter Description (2)
-* Enter External target link (is optional) (3)
-* Click on Save
+* Enter *Name* (1)
+* Enter *Description* (2)
+* Enter *External target link* (is optional) (3)
+* Click on *Save*
 
 ![Image](./media/4.png)
 ##
@@ -51,15 +51,15 @@
 
 ![Image](./media/8.png)
 ##
-> You need to transfer the settings of the created stream from the MetaAds website to the stream settings in OBS Studio.
+> You need to transfer the settings of the created stream from the MetaAds website to the stream settings in *OBS Studio*.
 
-* Click on Stream (1)
+* Click on *Stream* (1)
 * Copy link from *Public stream URL* field and paste in *Server* field (2)
 * Copy key from *Private key* field and paste in *Stream key* field (3)
 * Mark *Use authentication* (4)
 * Copy login from *Stream login* field and paste in *Username* field (5)
 * Copy password from *Stream password* field and paste in *Password* field (6)
-* Click on OK (7)
+* Click on *OK* (7)
 
 ![Image](./media/6.png)
 ##
@@ -73,10 +73,10 @@
 ##
 In sources click on *Image*
 
-* Enter the Name (1)
-* Click on OK (2)
-* Click on Review and select Image you want (3)
-* Click on OK (4)
+* Enter the *Name* (1)
+* Click on *OK* (2)
+* Click on *Browse* and select Image you want (3)
+* Click on *OK* (4)
 
 ![Image](./media/11.png)
 
@@ -96,8 +96,8 @@ Tutorial for [**Audience creation**](https://github.com/MetaAdsTeam/audience-cre
 
 Tutorial for [**Campaign creation**](https://github.com/MetaAdsTeam/campaign-creation).
 
-> When selecting an audience, select the one that has your **Controlled stream**
+> When selecting an audience, select the one that has your *Controlled stream*
 
 ![Image](./media/24.png)
 
-> The campaign will be created with one of the statuses: *On Moderation*, *New*, *Scheduled*. The message *"The audience has been successfully created"* will also pop up. 5 minutes before the start of the campaign in **OBS Studio**, click on *Start broadcast* and it will appear on the selected *Ad Space*.
+> The **campaign** will be created with one of the statuses: *On Moderation*, *New*, *Scheduled*. The message *"The audience has been successfully created"* will also pop up. 5 minutes before the start of the campaign in **OBS Studio**, click on *Start streaming* and it will appear on the selected *Ad Space*.
