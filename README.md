@@ -3,6 +3,8 @@
 
 This document is an instruction on how to work with *OBS Studio* and create a *controlled stream* in detail.
 
+> *Controlled stream* works and is used in **Decentraland** only.
+
 ## 1. Opening the [**MetaAds**](https://metaads.team/main/) website
 
 * Connect
